@@ -1,4 +1,5 @@
 module.exports = {
+  lintOnSave:false,
   root: true,
   env: {
     node: true
@@ -12,7 +13,6 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'space-before-function-paren': 0
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
 }
