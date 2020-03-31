@@ -18,6 +18,7 @@ import {
   Row,
   Col,
   Table,
+  Cascader,
   TableColumn,
   Switch,
   Tooltip,
@@ -55,6 +56,7 @@ Vue.use(Dialog)
 Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
+Vue.use(Cascader)
 Vue.use(Option)
 
 Vue.prototype.$message = Message

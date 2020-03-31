@@ -8,6 +8,7 @@ import './assets/css/global.css'
 // 导入字体图标
 import './assets/fonts/iconfont.css'
 import Axios from 'axios'
+import TreeTable from 'vue-table-with-tree-grid'
 
 //导入验证axios
 import axios from 'axios'
@@ -21,7 +22,7 @@ axios.interceptors.request.use(config=>{
   return config
 })
 
-
+Vue.component('tree-table',TreeTable)
 
 
 
